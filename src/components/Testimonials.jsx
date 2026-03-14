@@ -3,20 +3,20 @@ import React from 'react';
 const testimonials = [
     {
         name: "Sarah Jenkins",
-        role: "Advanced Diver",
-        text: "An absolutely breathtaking experience. The Spline scene doesn't even do justice to how beautiful the actual reefs are. The instructors made me feel completely safe.",
+        role: "CTO, FinTech Global",
+        text: "NexusAI completely revolutionized our fraud detection systems. Their custom predictive models reduced false positives by 40% in the first month alone.",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&auto=format&fit=crop"
     },
     {
         name: "Michael Chen",
-        role: "First Time Diver",
-        text: "I was terrified of the ocean before coming here. The team at DEEPBLUE was incredibly patient and professional. I'm now hooked for life!",
+        role: "Director of Operations",
+        text: "We were drowning in manual data entry. NexusAI built an automated pipeline that saved us thousands of hours and dramatically reduced human error.",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop"
     },
     {
         name: "Elena Rodriguez",
-        role: "Underwater Photographer",
-        text: "The locations they took us to were pristine. Some of the most vibrant coral and marine life I've ever captured on camera. Highly recommend.",
+        role: "VP of Product",
+        text: "The speed at which the Nexus team deployed our machine learning microservices was unprecedented. A truly elite group of engineers.",
         image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop"
     }
 ];
@@ -25,8 +25,8 @@ const Testimonials = () => {
     return (
         <section id="testimonials" className="section container" style={{ paddingTop: '8rem', paddingBottom: '8rem', position: 'relative' }}>
             <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-                <h2 className="heading-l" style={{ marginBottom: '1rem' }}>Diver <span className="text-primary">Stories</span></h2>
-                <p className="text-lg text-muted" style={{ maxWidth: '600px', margin: '0 auto' }}>Don't just take our word for it. Hear from those who have explored the depths with us.</p>
+                <h2 className="heading-l" style={{ marginBottom: '1rem' }}>Client <span className="text-primary">Success Stories</span></h2>
+                <p className="text-lg text-muted" style={{ maxWidth: '600px', margin: '0 auto' }}>Hear from industry leaders who have transformed their operations with NexusAI.</p>
             </div>
 
             <div className="grid grid-cols-3 gap-8">

@@ -7,9 +7,9 @@ const Contact = () => {
             <div className="container">
                 <div className="grid grid-cols-2 gap-8">
                     <div>
-                        <h2 className="heading-m" style={{ marginBottom: '1.5rem' }}>Ready to <span className="text-primary">Dive In?</span></h2>
+                        <h2 className="heading-m" style={{ marginBottom: '1.5rem' }}>Ready to <span className="text-primary">Transform?</span></h2>
                         <p className="text-muted" style={{ marginBottom: '3rem', maxWidth: '400px' }}>
-                            Leave us a message to check availability or to ask any questions. Our team of experts will get back to you within 24 hours.
+                            Schedule a free consultation with our AI architects to discover how NexusAI can drive growth for your business.
                         </p>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -19,7 +19,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <div className="text-muted" style={{ fontSize: '0.875rem' }}>Email Us</div>
-                                    <div style={{ fontWeight: 500 }}>hello@deepblue.com</div>
+                                    <div style={{ fontWeight: 500 }}>enterprise@nexusai.dev</div>
                                 </div>
                             </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <div className="text-muted" style={{ fontSize: '0.875rem' }}>Call Us</div>
-                                    <div style={{ fontWeight: 500 }}>+1 (555) 123-4567</div>
+                                    <div style={{ fontWeight: 500 }}>+1 (800) 555-DATA</div>
                                 </div>
                             </div>
 
@@ -38,23 +38,23 @@ const Contact = () => {
                                     <MapPin size={20} />
                                 </div>
                                 <div>
-                                    <div className="text-muted" style={{ fontSize: '0.875rem' }}>Location</div>
-                                    <div style={{ fontWeight: 500 }}>123 Ocean Drive, Coral Reef City</div>
+                                    <div className="text-muted" style={{ fontSize: '0.875rem' }}>Headquarters</div>
+                                    <div style={{ fontWeight: 500 }}>100 Innovation Blvd, Tech Hub City</div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className="glass-panel">
-                        <h3 style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>Send a Message</h3>
+                        <h3 style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>Request an API Key or Demo</h3>
                         <form style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }} onSubmit={(e) => e.preventDefault()}>
                             <div style={{ display: 'flex', gap: '1rem' }}>
-                                <input type="text" placeholder="First Name" style={{ flex: 1, padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outlint: 'none' }} />
+                                <input type="text" placeholder="First Name" style={{ flex: 1, padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outline: 'none' }} />
                                 <input type="text" placeholder="Last Name" style={{ flex: 1, padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outline: 'none' }} />
                             </div>
-                            <input type="email" placeholder="Email Address" style={{ padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outline: 'none' }} />
-                            <textarea placeholder="Your Message" rows="4" style={{ padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outline: 'none', resize: 'vertical' }}></textarea>
-                            <button className="btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>Send Message</button>
+                            <input type="email" placeholder="Work Email" style={{ padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outline: 'none' }} />
+                            <textarea placeholder="Tell us about your data challenges..." rows="4" style={{ padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'white', outline: 'none', resize: 'vertical' }}></textarea>
+                            <button className="btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>Submit Request</button>
                         </form>
                     </div>
                 </div>

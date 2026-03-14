@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './index.css';
 import Hero from './components/Hero';
 import About from './components/About';
-import Courses from './components/Courses';
+import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
@@ -24,7 +24,7 @@ function App() {
       <Hero />
       <div className="content-wrapper">
         <About />
-        <Courses />
+        <Services />
         <Testimonials />
         <Contact />
       </div>

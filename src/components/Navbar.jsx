@@ -4,7 +4,7 @@ const Navbar = ({ scrolled }) => {
     return (
         <nav style={{
             position: 'fixed',
-            top: 0,
+            top: scrolled ? 0 : '-100px', // Hide when at the very top so it doesn't overlap Spline's native header
             left: 0,
             right: 0,
             padding: '1.5rem 2rem',
@@ -12,19 +12,19 @@ const Navbar = ({ scrolled }) => {
             justifyContent: 'space-between',
             alignItems: 'center',
             zIndex: 100,
-            background: scrolled ? 'rgba(3, 10, 22, 0.8)' : 'transparent',
-            backdropFilter: scrolled ? 'blur(12px)' : 'none',
-            borderBottom: scrolled ? '1px solid rgba(255, 255, 255, 0.05)' : '1px solid transparent',
-            transition: 'all 0.4s ease'
+            background: 'rgba(3, 10, 22, 0.9)',
+            backdropFilter: 'blur(12px)',
+            borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
+            transition: 'top 0.4s ease, background 0.4s ease'
         }}>
             <div style={{ fontWeight: 700, fontSize: '1.5rem', letterSpacing: '-0.02em' }}>
-                DEEP<span className="text-primary">BLUE</span>
+                NEXUS<span className="text-primary">AI</span>
             </div>
             <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
-                <a href="#about" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: 500 }}>About</a>
-                <a href="#courses" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: 500 }}>Courses</a>
-                <a href="#testimonials" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: 500 }}>Testimonials</a>
-                <a href="#contact" className="btn-primary" style={{ padding: '0.75rem 1.5rem', fontSize: '1rem' }}>Book Dive</a>
+                <a href="#about" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: 500 }}>About Us</a>
+                <a href="#services" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: 500 }}>Services</a>
+                <a href="#testimonials" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: 500 }}>Success Stories</a>
+                <a href="#contact" className="btn-primary" style={{ padding: '0.75rem 1.5rem', fontSize: '1rem' }}>Get Started</a>
             </div>
         </nav>
     );
